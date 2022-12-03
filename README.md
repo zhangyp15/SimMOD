@@ -1,6 +1,8 @@
 # SimMOD
 Implementation of SimMOD: A Simple Baseline for Multi-Camera 3D Object Detection. (AAAI 2023)
 
+[Arxiv](http://arxiv.org/abs/2208.10035)
+
 ![framework](figs/SimMOD.jpg "The overall framework of SimMOD")
 
 ## Installation
