@@ -259,7 +259,7 @@ train_pipeline = [
     dict(type="LoadMultiViewImageFromFiles", to_float32=True),
     dict(type="PhotoMetricDistortionMultiViewImage"),
     dict(
-        type="LoadAnnotations3D",
+        type="CustomLoadAnnotations3D",
         with_bbox_3d=True,
         with_label_3d=True,
         with_attr_label=False,
